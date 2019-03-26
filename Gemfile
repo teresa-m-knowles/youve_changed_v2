@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bcrypt'
 gem 'figaro'
+gem 'sendgrid-ruby'
 gem 'rails_12factor', group: :production
 
 group :development, :test do
