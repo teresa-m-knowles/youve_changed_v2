@@ -35,12 +35,12 @@ module YouveChangedV2
     config.action_mailer.smtp_settings = {
       address:              'smtp.sendgrid.net',
       port:                 '587',
-      domain:               'example.com',
+      domain:               'https://damp-fjord-99964.herokuapp.com',
       user_name:            ENV["SENDGRID_USERNAME"],
       password:             ENV["SENDGRID_PASSWORD"],
       authentication:       'plain',
       enable_starttls_auto: true
     }
-    
+
   end
 end
